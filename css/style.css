@@ -69,3 +69,28 @@ header {
         width: 50%;
     }
 }
+
+/* -----------------
+    FEEDBACK   
+----------------- */
+#feedback .container {
+    text-align: center;
+    padding: 0 .9375rem;
+}
+.card-users {
+    width: 100%;
+    text-align: center;
+}
+.card-users .img {
+    width: 100%;
+    height: 200px;
+    background-color: blanchedalmond;
+}
+@media screen and (min-width: 48rem) {
+    .card-users .img {
+        width: 30%;
+    }
+    .card-users .user-details {
+        width: 70%;
+    }
+}
