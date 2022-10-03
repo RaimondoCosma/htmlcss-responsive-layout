@@ -133,3 +133,11 @@ header {
         width: 40%;
     }
 }
+
+/* -----------------
+    FOOTER
+----------------- */
+.pre-footer {
+    background-color: var(--second-color);
+}
+

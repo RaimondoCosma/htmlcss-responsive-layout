@@ -19,6 +19,11 @@ section {
     text-decoration: none;
     color: inherit;
 }
+.footer-container {
+    max-width: 35.625rem;
+    margin: auto;
+    text-align: center;
+}
 
 
 /* -----------------
