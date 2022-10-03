@@ -112,3 +112,24 @@ header {
         width: 32%;
     }
 }
+
+/* -----------------
+    ABOUT-US   
+----------------- */
+.about.col {
+    width: 100%;
+}
+.about-col .img {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+
+@media screen and (min-width: 768px) {
+    .about-col-description {
+        width: 60%;
+    }
+    .about-col-image {
+        width: 40%;
+    }
+}
