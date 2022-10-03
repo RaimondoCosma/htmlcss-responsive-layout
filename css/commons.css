@@ -25,6 +25,14 @@ section {
     text-align: center;
 }
 
+/* -----------------
+    BUTTONS   
+----------------- */
+.btn {
+    background-color: white;
+    padding: .625rem 1.5625rem;
+    border-radius: .625rem;
+}
 
 /* -----------------
     FLEX   
@@ -33,6 +41,7 @@ section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
 }
 .row {
     display: flex;
