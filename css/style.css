@@ -137,7 +137,17 @@ header {
 /* -----------------
     FOOTER
 ----------------- */
+footer {
+    color: white;
+}
 .pre-footer {
     background-color: var(--second-color);
+    padding: 3.75rem 0;
 }
-
+.footer {
+    background-color: black;
+    padding: 2.5rem 0;
+}
+.footer p:first-child {
+    padding-bottom: 3.75rem;
+}
