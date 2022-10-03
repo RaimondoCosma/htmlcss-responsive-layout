@@ -1,0 +1,32 @@
+/* -----------------
+    COMMONS   
+----------------- */
+.container {
+    max-width: 71.25rem;
+    margin: auto;
+}
+.menu ul {
+    list-style: none;
+}
+.menu ul li:not(:last-child) {
+    padding-right: 1.875rem;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* -----------------
+    FLEX   
+----------------- */
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.row {
+    display: flex;
+}
+.padding-mobile {
+    padding: 0 .9375rem;
+}
