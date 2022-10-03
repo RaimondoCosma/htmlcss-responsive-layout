@@ -25,3 +25,29 @@ header {
     }
 
 }
+
+/* -----------------
+    MAIN   
+----------------- */
+/* -----------------
+    HIGHLIGHTS   
+----------------- */
+#highlights .col-cards {
+    width: 100%;
+    margin-bottom: 1.5625rem;
+    padding: 0 .9375rem;
+}
+#highlights .col-cards div{
+    height: 300px;
+    background-color: var(--first-color-light);
+    
+}
+
+@media screen and (min-width: 48rem) {
+    #highlights .col-cards {
+        width: calc(100% / 3);
+    }
+    #highlights .col-cards:first-child {
+        width: calc((100% / 3) * 2);
+    }
+}

@@ -1,6 +1,9 @@
 /* -----------------
     COMMONS   
 ----------------- */
+section {
+    padding: 3.125rem 0;
+}
 .container {
     max-width: 71.25rem;
     margin: auto;
@@ -26,6 +29,7 @@
 }
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 .padding-mobile {
     padding: 0 .9375rem;
