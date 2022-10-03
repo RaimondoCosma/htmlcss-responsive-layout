@@ -11,7 +11,7 @@ header {
     color: white;
 }
 .nav-bar {
-    padding: .9375rem 0;
+    padding: .9375rem .9375rem;
 }
 .menu ul {
     display: none;
@@ -33,27 +33,22 @@ header {
     HIGHLIGHTS   
 ----------------- */
 .cards-debug {
-    padding: 0 .9375rem;
-}
-.col-cards {
-    width: 100%;
-}
-.col-cards div {
     background-color: var(--first-color-light);
     height: 300px;
 }
-#highlights .col-cards div{
-    height: 300px;
-    background-color: var(--first-color-light);;
+#highlights .col {
+    width: 100%;
+    margin: .625rem 0;    
 }
 
-@media screen and (min-width: 48rem) {
-    .col-cards {
+@media screen and (min-width: 768px) {
+    #highlights .col {
         width: calc(100% / 3);
     }
-    .col-cards:first-child {
+    #highlights .col:first-child {
         width: calc((100% / 3) * 2);
     }
+
 }
 /* -----------------
     STRATEGIC   
@@ -86,11 +81,34 @@ header {
     height: 200px;
     background-color: blanchedalmond;
 }
-@media screen and (min-width: 48rem) {
+@media screen and (min-width: 768px) {
     .card-users .img {
         width: 30%;
     }
     .card-users .user-details {
         width: 70%;
+    }
+}
+
+/* -----------------
+    BENEFITS   
+----------------- */
+#benefits {
+    background-color: var(--second-color);
+}
+.col-benefits-card {
+    width: 100%;
+    background-color: white;
+    margin-top: 1.875rem;
+}
+
+@media screen and (min-width: 768px) {
+    .col-benefits-card {
+        width: 49%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .col-benefits-card {
+        width: 32%;
     }
 }
