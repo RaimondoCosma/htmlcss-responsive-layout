@@ -32,22 +32,40 @@ header {
 /* -----------------
     HIGHLIGHTS   
 ----------------- */
-#highlights .col-cards {
-    width: 100%;
-    margin-bottom: 1.5625rem;
+.cards-debug {
     padding: 0 .9375rem;
+}
+.col-cards {
+    width: 100%;
+}
+.col-cards div {
+    background-color: var(--first-color-light);
+    height: 300px;
 }
 #highlights .col-cards div{
     height: 300px;
-    background-color: var(--first-color-light);
-    
+    background-color: var(--first-color-light);;
 }
 
 @media screen and (min-width: 48rem) {
-    #highlights .col-cards {
+    .col-cards {
         width: calc(100% / 3);
     }
-    #highlights .col-cards:first-child {
+    .col-cards:first-child {
         width: calc((100% / 3) * 2);
+    }
+}
+/* -----------------
+    STRATEGIC   
+----------------- */
+#strategic {
+    background-color: var(--second-color);
+}
+#strategic .row {
+    padding: 0 .9375rem;
+}
+@media screen and (min-width: 62rem) {
+    .col-strategic {
+        width: 50%;
     }
 }
