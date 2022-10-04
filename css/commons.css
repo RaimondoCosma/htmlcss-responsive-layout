@@ -58,6 +58,13 @@ img {
     border-radius: .9375rem;
     background-color: var(--second-color);
  }
+ .big-btn {
+    background-color: white;
+    color: var(--second-color);
+    display: inline-block;
+    border-radius: 2.5rem;
+    padding: 1.25rem 4.6875rem;
+ }
 /* -----------------
     FLEX   
 ----------------- */

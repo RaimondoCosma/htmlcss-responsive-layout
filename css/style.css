@@ -7,31 +7,11 @@
 @import url(strategic.css);
 @import url(feedback.css);
 @import url(benefits.css);
+@import url(about-us.css);
 
 /* -----------------
     MAIN   
 ----------------- */
-/* -----------------
-    ABOUT-US   
------------------ */
-.about.col {
-    width: 100%;
-}
-.about-col .img {
-    width: 200px;
-    height: 200px;
-    background-color: brown;
-}
-
-@media screen and (min-width: 768px) {
-    .about-col-description {
-        width: 60%;
-    }
-    .about-col-image {
-        width: 40%;
-    }
-}
-
 /* -----------------
     FOOTER
 ----------------- */
@@ -42,10 +22,34 @@ footer {
     background-color: var(--second-color);
     padding: 3.75rem 0;
 }
+.pre-footer p {
+    color: inherit;
+    padding: 2.1875rem 0;
+}
+.pre-footer small {
+    display: block;
+    padding-top: 2.1875rem;
+}
+.pre-footer small a {
+    text-decoration: underline;
+}
+.spam {
+    font-size: 88px;
+    color: #fdc15f;
+}
 .footer {
     background-color: black;
     padding: 2.5rem 0;
 }
 .footer p:first-child {
-    padding-bottom: 3.75rem;
+    padding: 0 1.875rem 3.75rem;
+    color: inherit;
+}
+.footer p:last-child {
+    padding: 0 2.5rem;
+    color: inherit;
+}
+.footer p a {
+    text-decoration: underline;
+    color: var(--second-color);
 }

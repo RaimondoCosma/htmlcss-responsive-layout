@@ -1,0 +1,51 @@
+/* -----------------
+    ABOUT-US   
+----------------- */
+.about-col {
+    width: 100%;
+}
+.about-col h2 {
+    font-size: 2.875rem;
+    color: var(--second-color);
+}
+.about-col .img {
+    position: relative;
+    width: 60%;
+}
+.about-col img {
+    width: 100%;
+    border-radius: 50%;
+}
+.about-col .fa-quote-left {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 3.125rem;
+    color: var(--second-color);
+}
+.about-col p {
+    margin: 3.75rem 0;
+    line-height: 2.25rem;
+}
+.about-col span {
+    display: block;
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: var(--second-color);
+    padding: 1.875rem 0;
+}
+
+@media screen and (min-width: 768px) {
+    #about-us .flex {
+        align-items: flex-start;
+    }
+    .about-col {
+        padding: 0 1.875rem;
+    }
+    .about-col-description {
+        width: 60%;
+    }
+    .about-col-image {
+        width: 40%;
+    }
+}
