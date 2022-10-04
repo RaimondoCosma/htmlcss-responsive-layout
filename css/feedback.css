@@ -1,0 +1,55 @@
+/* -----------------
+    FEEDBACK   
+----------------- */
+#feedback .container {
+    padding: 0 .9375rem;
+    text-align: center;
+}
+#feedback h2 {
+    padding: 2.5rem 3.125rem;
+    color: var(--second-color);
+}
+#feedback p {
+    padding: 0 2.8125rem 3.125rem;
+}
+.card-users {
+    text-align: center;
+    border-radius: 2.5rem;
+    width: 100%;
+    background-color: var(--second-color);
+    margin-bottom: 2.1875rem;
+}
+.card-users .col-users {
+    width: 100%;
+}
+.card-users .col-users img {
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    margin: 1.875rem 1.25rem;
+    border-radius: 50%;
+    display: inline-block;
+}
+.card-users .text {
+    color: white;
+    padding: 0 1.25rem;
+}
+.card-users h3 {
+    color: white;
+    padding: 1.875rem 0 2.1875rem;
+}
+@media screen and (min-width: 768px) {
+    .card-users {
+        text-align: left;
+        align-items: center;
+    }
+    .card-users .col-users {
+        width: 30%;
+    }
+    .card-users .text {
+        width: 70%;
+    }
+    .card-users h3 {
+        padding-bottom: .3125rem;
+    }
+}
