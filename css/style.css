@@ -30,7 +30,7 @@ header {
     transition: 0.3s;
 }
 .menu ul li {
-    width: 100%;
+    /* width: 100%; */
     padding: 1.1938rem;
 }
 .menu ul li:last-child {
@@ -117,6 +117,7 @@ header {
     .menu ul {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         position: relative;
         width: 100%;
         right: 0;
@@ -124,6 +125,9 @@ header {
     }
     .menu ul li {
         padding: 0;
+    }
+    .menu ul li:last-child {
+        padding: .625rem .9375rem;
     }
 }
 
@@ -171,15 +175,15 @@ header {
     FEEDBACK   
 ----------------- */
 #feedback .container {
-    text-align: center;
     padding: 0 .9375rem;
+    text-align: center;
 }
 .card-users {
     width: 100%;
-    text-align: center;
+    background-color: var(--second-color);
 }
 .card-users .img {
-    width: 100%;
+    width: 200px;
     height: 200px;
     background-color: blanchedalmond;
 }
