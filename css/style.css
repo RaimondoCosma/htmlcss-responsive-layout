@@ -157,8 +157,12 @@ header {
 #strategic {
     background-color: var(--second-color);
 }
-#strategic .row {
-    padding: 0 .9375rem;
+#strategic .flex {
+    justify-content: center;
+    align-items: flex-end;
+}
+#strategic .col-strategic {
+    width: 40%;
 }
 @media screen and (min-width: 62rem) {
     .col-strategic {
