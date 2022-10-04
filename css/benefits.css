@@ -1,0 +1,36 @@
+/* -----------------
+    BENEFITS   
+----------------- */
+#benefits {
+    background-color: var(--second-color);
+}
+#benefits .number {
+    font-weight: bold;
+    font-size: 2.25rem;
+    color: var(--second-color);
+}
+.col-benefits-card {
+    width: 100%;
+    border-radius: 1.875rem;
+    background-color: white;
+    margin-top: 1.875rem;
+    padding: 3.125rem 1.875rem 1.875rem;
+}
+.col-benefits-card h3 {
+    padding: 2.1875rem 0 1.875rem;
+    color: var(--second-color);
+}
+.col-benefits-card p {
+    padding-bottom: 1.5625rem;
+}
+
+@media screen and (min-width: 768px) {
+    .col-benefits-card {
+        width: 49%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .col-benefits-card {
+        width: 32%;
+    }
+}

@@ -50,6 +50,14 @@ img {
     color: white;
     border-radius: .9375rem;
  }
+ .purple-btn {
+    display: inline-block;
+    padding: .9375rem 2.8125rem;
+    margin: .9375rem 0;
+    color: white;
+    border-radius: .9375rem;
+    background-color: var(--second-color);
+ }
 /* -----------------
     FLEX   
 ----------------- */

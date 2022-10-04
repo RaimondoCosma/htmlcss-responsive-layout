@@ -6,34 +6,11 @@
 @import url(highlights.css);
 @import url(strategic.css);
 @import url(feedback.css);
-
+@import url(benefits.css);
 
 /* -----------------
     MAIN   
 ----------------- */
-/* -----------------
-    BENEFITS   
------------------ */
-#benefits {
-    background-color: var(--second-color);
-}
-.col-benefits-card {
-    width: 100%;
-    background-color: white;
-    margin-top: 1.875rem;
-}
-
-@media screen and (min-width: 768px) {
-    .col-benefits-card {
-        width: 49%;
-    }
-}
-@media screen and (min-width: 992px) {
-    .col-benefits-card {
-        width: 32%;
-    }
-}
-
 /* -----------------
     ABOUT-US   
 ----------------- */
