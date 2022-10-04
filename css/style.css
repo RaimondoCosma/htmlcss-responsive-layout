@@ -161,12 +161,9 @@ header {
     justify-content: center;
     align-items: flex-end;
 }
-#strategic .col-strategic {
-    width: 40%;
-}
 @media screen and (min-width: 62rem) {
     .col-strategic {
-        width: 50%;
+        width: 40%;
     }
 }
 
