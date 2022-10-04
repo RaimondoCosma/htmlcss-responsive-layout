@@ -43,12 +43,20 @@ img {
     padding: .625rem .9375rem;
     background-color: white;
     border-radius: .9375rem;
+    transition: transform 0.3s;
 }
+.btn:hover {
+    transform: scale(1.2);
+ }
  .blue-btn {
     padding: .75rem 2.8125rem;
     background-color: var(--first-color);
     color: white;
     border-radius: .9375rem;
+    transition: transform 0.3s;
+ }
+ .blue-btn:hover {
+    transform: scale(1.2);
  }
  .purple-btn {
     display: inline-block;
@@ -57,6 +65,10 @@ img {
     color: white;
     border-radius: .9375rem;
     background-color: var(--second-color);
+    transition: transform 0.3s;
+ }
+ .purple-btn:hover {
+    transform: scale(1.2);
  }
  .big-btn {
     background-color: white;
@@ -64,6 +76,10 @@ img {
     display: inline-block;
     border-radius: 2.5rem;
     padding: 1.25rem 4.6875rem;
+    transition: transform 0.3s;
+ }
+ .big-btn:hover {
+    transform: scale(1.2);
  }
 /* -----------------
     FLEX   
