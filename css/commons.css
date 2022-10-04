@@ -12,9 +12,9 @@ section {
 .menu ul {
     list-style: none;
 }
-.menu ul li:not(:last-child) {
+/* .menu ul li:not(:last-child) {
     padding-right: 1.875rem;
-}
+} */
 .menu ul li a{
     text-decoration: none;
     color: inherit;
@@ -23,15 +23,6 @@ section {
     max-width: 35.625rem;
     margin: auto;
     text-align: center;
-}
-
-/* -----------------
-    BUTTONS   
------------------ */
-.btn {
-    background-color: white;
-    padding: .625rem 1.5625rem;
-    border-radius: .625rem;
 }
 
 /* -----------------

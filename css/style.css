@@ -33,6 +33,13 @@ header {
     width: 100%;
     padding: 1.1938rem;
 }
+.menu ul li:last-child {
+    color: black;
+    text-align: center;
+    padding: .625rem .625rem;
+    background-color: white;
+    border-radius: .9375rem;
+}
 /* -----------------
     COSTRUZIONE HAMBURGER
 ----------------- */
@@ -101,6 +108,9 @@ header {
 }
 
 @media screen and (min-width: 62rem) {
+    .menu {
+        width: 50%;
+    }
     .menu .hamburger {
         display: none;
     }
@@ -108,8 +118,8 @@ header {
         display: flex;
         flex-direction: row;
         position: relative;
-        right: 0;
         width: 100%;
+        right: 0;
         padding-top: 0;
     }
     .menu ul li {
