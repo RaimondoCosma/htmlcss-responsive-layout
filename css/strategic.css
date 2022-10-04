@@ -1,0 +1,52 @@
+/* -----------------
+    STRATEGIC   
+----------------- */
+#strategic {
+    background-color: var(--second-color);
+    text-align: center;
+    color: white;
+}
+#strategic h2 {
+    margin: 5.625rem 0 3.4375rem;
+    font-size: 1.875rem;
+}
+#strategic p {
+    color: inherit;
+}
+.planning2 {
+    background-color: white;
+    border-radius: 2.5rem;
+    margin-top: 2.1875rem;
+    color: #1c1c1c;
+}
+.planning2 img {
+    padding: 2.1875rem 2.1875rem 0;
+}
+.planning2 h4 {
+    font-size: 1.25rem;
+    padding: 1.875rem 0 1.5625rem;
+}
+.planning2 p {
+    padding: 0 1.25rem;
+    font-style: italic;
+}
+.planning2 .fa-arrow-down-long {
+    padding: .9375rem 1.0625rem;
+    margin: 2.1875rem 0 1.875rem;
+    border-radius: 50%;
+    background-color: var(--second-color);
+}
+#strategic .flex {
+    justify-content: center;
+    align-items: flex-end;
+}
+@media screen and (min-width: 62rem) {
+    #strategic .flex {
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .col-strategic {
+        width: 30%;
+        margin: 0 3.75rem;
+    }
+}

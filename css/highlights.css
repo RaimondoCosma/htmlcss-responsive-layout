@@ -1,0 +1,61 @@
+/* -----------------
+    HIGHLIGHTS   
+----------------- */
+.first:first-child {
+    padding-bottom: 0;
+}
+.cards-debug {
+    background-color: var(--first-color-light);
+    padding: 1.875rem 1.25rem;
+    border-radius: 1.25rem;
+    justify-content: center;
+    text-align: center;
+}
+.cards-debug .icon {
+    font-size: 4.5rem;
+    color: var(--first-color);
+    padding-bottom: 1.875rem;
+}   
+#highlights .col {
+    width: 100%;
+    margin: 1.25rem 0;    
+}
+#highlights h3 {
+    padding-bottom: 1.25rem;
+}
+#highlights .cards-debug a {
+    display: inline-block;
+    margin: 1.875rem 0;
+}
+.col-first-card img {
+    width: 12.5rem;
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    #highlights .col {
+        width: calc(100% / 3);
+    }
+    #highlights .col:first-child {
+        width: calc((100% / 3) * 2);
+    }
+    .cards-debug {
+        height: 100%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .cards-debug {
+        justify-content: space-between;
+        align-items: flex-end;
+        height: 100%;
+    }
+    .col-first-card {
+        width: 50%;
+    }
+    .col-first-card:not(:first-child) {
+      width: 40%;
+    }
+    #highlights .cards-debug a {
+        margin: 1.875rem 0 2.5rem;
+    }
+}

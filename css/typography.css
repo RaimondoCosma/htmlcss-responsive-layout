@@ -2,7 +2,7 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
-#highlights h2 {
+#highlights h3 {
     color: var(--first-color);
 }
 p {

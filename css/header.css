@@ -1,0 +1,127 @@
+/* -----------------
+    HEADER   
+----------------- */
+header {
+    background-color: var(--first-color);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.nav-bar {
+    padding: .9375rem .9375rem;
+    position: relative;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu ul {
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: -9.375rem;
+    padding-top: 5rem;
+    background-color: var(--first-color);
+    width: 9.375rem;
+    transition: 0.3s;
+}
+.menu ul li {
+    padding: 1.1938rem;
+}
+.menu ul li:last-child {
+    color: black;
+    text-align: center;
+    padding: .625rem .625rem;
+    background-color: white;
+    border-radius: .9375rem;
+}
+/* -----------------
+    COSTRUZIONE HAMBURGER
+----------------- */
+.hamburger  {
+    position: relative;
+    background: white;
+    width: 30px;
+    height: 4px;
+    cursor: pointer;
+    z-index: 10;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.hamburger::after, .hamburger::before {
+    content: ''; 
+    position: absolute;
+    right: 0;
+    height: .25rem;
+    background: white;
+    z-index: 10;
+    border-radius: .625rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.hamburger::after {
+    top: 10px;
+    width: 1.875rem;
+}
+.hamburger::before {
+    top: -10px;
+    width: 1.875rem;
+}
+/* -----------------
+    CHECKBOX SOPRA L'HAMBURGER
+----------------- */
+.toggle-menu {
+    position: absolute; 
+    width: 30px;
+    height: 30px;
+    z-index: 11;
+    opacity: 0;
+    cursor: pointer;
+}
+/* -----------------
+    IMPOSTO TRANSIZIONE HAMBURGER AL CHECK DELL'INPUT
+----------------- */
+.menu input:checked ~ .hamburger {
+    background: transparent;
+}
+.menu input:checked ~ .hamburger::after {
+    top: 0;
+    transform: rotate(405deg);
+}
+.menu input:checked ~ .hamburger::before {
+    top: 0;
+    transform: rotate(-405deg);
+}
+/* -----------------
+    IMPOSTO TRANSIZIONE LISTA AL CHECK DELL'INPUT
+----------------- */
+.menu input:checked ~ ul {
+    right: 0;
+    box-shadow: -20px 0 40px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 62rem) {
+    .menu {
+        width: 50%;
+    }
+    .menu .hamburger {
+        display: none;
+    }
+    .menu ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        width: 100%;
+        right: 0;
+        padding-top: 0;
+    }
+    .menu ul li {
+        padding: 0;
+    }
+    .menu ul li:last-child {
+        padding: .625rem .9375rem;
+    }
+}
