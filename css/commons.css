@@ -7,17 +7,26 @@ section {
 .container {
     max-width: 71.25rem;
     margin: auto;
-    padding: 0 .9375rem;
+    padding: 0 1.875rem;
 }
 .menu ul {
     list-style: none;
 }
-/* .menu ul li:not(:last-child) {
-    padding-right: 1.875rem;
-} */
-.menu ul li a{
+a{
     text-decoration: none;
     color: inherit;
+}
+.cards:first-child {
+    padding-bottom: 0;
+}
+.cards {
+    background-color: var(--first-color-light);
+    padding: 1.875rem 1.25rem;
+    border-radius: 1.25rem;
+}
+img {
+    display: block;
+    width: 100%;
 }
 .footer-container {
     max-width: 35.625rem;
@@ -25,6 +34,22 @@ section {
     text-align: center;
 }
 
+/* -----------------
+    BUTTON   
+----------------- */
+.btn {
+    color: black;
+    text-align: center;
+    padding: .625rem .9375rem;
+    background-color: white;
+    border-radius: .9375rem;
+}
+ .blue-btn {
+    padding: .75rem 2.8125rem;
+    background-color: var(--first-color);
+    color: white;
+    border-radius: .9375rem;
+ }
 /* -----------------
     FLEX   
 ----------------- */
@@ -37,7 +62,7 @@ section {
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -0.9375rem;
+    margin: 0 -1.875rem;
 }
 .col {
     padding: 0 .9375rem;

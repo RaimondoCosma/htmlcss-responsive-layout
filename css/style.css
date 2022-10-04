@@ -1,6 +1,7 @@
 @import url(reset.css);
 @import url(variables.css);
 @import url(commons.css);
+@import url(typography.css);
 
 
 /* -----------------
@@ -9,10 +10,13 @@
 header {
     background-color: var(--first-color);
     color: white;
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 .nav-bar {
     padding: .9375rem .9375rem;
+    position: relative;
 }
 .menu {
     display: flex;
@@ -30,7 +34,6 @@ header {
     transition: 0.3s;
 }
 .menu ul li {
-    /* width: 100%; */
     padding: 1.1938rem;
 }
 .menu ul li:last-child {
@@ -91,13 +94,11 @@ header {
 }
 .menu input:checked ~ .hamburger::after {
     top: 0;
-    width: 30px;
-    transform: rotate(45deg);
+    transform: rotate(405deg);
 }
 .menu input:checked ~ .hamburger::before {
     top: 0;
-    width: 30px;
-    transform: rotate(-45deg);
+    transform: rotate(-405deg);
 }
 /* -----------------
     IMPOSTO TRANSIZIONE LISTA AL CHECK DELL'INPUT
@@ -137,13 +138,35 @@ header {
 /* -----------------
     HIGHLIGHTS   
 ----------------- */
+.first:first-child {
+    padding-bottom: 0;
+}
 .cards-debug {
     background-color: var(--first-color-light);
-    height: 300px;
+    padding: 1.875rem 1.25rem;
+    border-radius: 1.25rem;
+    justify-content: center;
+    text-align: center;
 }
+.cards-debug .icon {
+    font-size: 4.5rem;
+    color: var(--first-color);
+    padding-bottom: 1.875rem;
+}   
 #highlights .col {
     width: 100%;
-    margin: .625rem 0;    
+    margin: 1.25rem 0;    
+}
+#highlights h2 {
+    padding-bottom: 1.25rem;
+}
+#highlights .cards-debug a {
+    display: inline-block;
+    margin: 1.875rem 0;
+}
+.col-first-card img {
+    width: 12.5rem;
+    display: block;
 }
 
 @media screen and (min-width: 768px) {
@@ -153,7 +176,25 @@ header {
     #highlights .col:first-child {
         width: calc((100% / 3) * 2);
     }
-
+    .cards-debug {
+        height: 100%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .cards-debug {
+        justify-content: space-between;
+        align-items: flex-end;
+        height: 100%;
+    }
+    .col-first-card {
+        width: 50%;
+    }
+    .col-first-card:not(:first-child) {
+      width: 40%;
+    }
+    #highlights .cards-debug a {
+        margin: 1.875rem 0 2.5rem;
+    }
 }
 /* -----------------
     STRATEGIC   

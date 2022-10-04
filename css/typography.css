@@ -1,0 +1,10 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+#highlights h2 {
+    color: var(--first-color);
+}
+p {
+    color: #5a6e7f;
+}
