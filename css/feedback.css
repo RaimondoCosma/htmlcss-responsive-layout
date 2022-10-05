@@ -51,7 +51,6 @@
 }
 @media screen and (min-width: 768px) {
     .card-users {
-        text-align: left;
         align-items: center;
     }
     .card-users .col-users {
@@ -59,6 +58,7 @@
     }
     .card-users .text {
         width: 70%;
+        text-align: left;
     }
     .card-users h3 {
         padding-bottom: .3125rem;

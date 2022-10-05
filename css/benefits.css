@@ -4,6 +4,10 @@
 #benefits {
     background-color: var(--second-color);
 }
+.benefits-title {
+    text-align: center;
+    color: white;
+}
 #benefits .number {
     font-weight: bold;
     font-size: 2.25rem;

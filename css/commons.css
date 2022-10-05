@@ -46,7 +46,7 @@ img {
     transition: transform 0.3s;
 }
 .btn:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
  }
  .blue-btn {
     padding: .75rem 2.8125rem;
