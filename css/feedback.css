@@ -21,14 +21,25 @@
 }
 .card-users .col-users {
     width: 100%;
+    text-align: center;
 }
-.card-users .col-users img {
-    width: 200px;
-    height: 200px;
-    background-size: contain;
+.card-users .col-users .testimonial-img {
+    display: inline-block;
+    width: 12.5rem;
+    height: 12.5rem;
     margin: 1.875rem 1.25rem;
     border-radius: 50%;
-    display: inline-block;
+    background-size: cover;
+    background-position: center;
+}
+.testimonial1 {
+    background-image: url('../img/testimonial1.jpg');   
+}
+.testimonial2 {
+    background-image: url('../img/testimonial2.jpg');
+}
+.testimonial3 {
+    background-image: url('../img/testimonial3.jpg');
 }
 .card-users .text {
     color: white;
