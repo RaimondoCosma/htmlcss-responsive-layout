@@ -98,3 +98,12 @@ img {
 .col {
     padding: 0 .9375rem;
 }
+/* -----------------
+    TRANSITION   
+----------------- */
+i {
+    transition: transform 0.8s;
+}
+i:hover {
+    transform: rotateY(360deg);
+}

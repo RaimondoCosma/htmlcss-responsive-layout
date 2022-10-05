@@ -20,7 +20,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 3.125rem;
+    font-size: 3.75rem;
     color: var(--second-color);
 }
 .about-col p {
@@ -47,5 +47,8 @@
     }
     .about-col-image {
         width: 40%;
+    }
+    .about-col span {
+        width: 70%;
     }
 }
